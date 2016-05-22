@@ -1,0 +1,139 @@
+#main {
+	height: 100%;
+	width: 100%;
+}
+
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%;
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.clear {
+	clear:both;
+}
+
+h1 {
+	font: bold 4em "Cambria", Garamond, Georgia, Times New Roman, serif;
+	text-align: center;
+	-webkit-margin-before: .5em;
+	-moz-margin-before: .5em;
+	-o-margin-before: .5em;
+	-ms-margin-before: .5em;
+	margin-top: .5em;
+	-webkit-margin-after: 0px;
+	-moz-margin-after: 0px;
+	-o-margin-after: 0px;
+	-ms-margin-after: 0px;
+	margin-bottom: 0px;
+}
+
+#choose{
+	font-size: 2.5em;
+	-webkit-margin-before: .1em;
+	-moz-margin-before: .1em;
+	-o-margin-before: .1em;
+	-ms-margin-before: .1em;
+	margin-top: .1em;
+	-webkit-margin-after: .1em;
+	-moz-margin-after: .1em;
+	-o-margin-after: .1em;
+	-ms-margin-after: .1em;
+	margin-bottom: .1em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+ul li {
+  float: left;
+  list-style-type: none;
+  margin: 0 6px;
+}
+
+img {
+	margin-top: 0px;
+}
+
+FILLER {
+	font: "Cambria", Garamond, Georgia, Times New Roman, serif;
+}
+
+.button {
+	margin-top: 20px;
+	margin-bottom: 0px;
+    margin-left: auto;
+	margin-right: auto;
+    /*Basic Button Styles*/
+    display: block;
+    height: 100px;
+    width: 600px;
+    background: white;
+    border: 2px solid #2F4F4F;
+     
+    /*Text Styles*/
+    color: #2F4F4F;
+    text-align: center;
+    font: bold 3.2em/100px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+     
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+     
+    -webkit-box-shadow: 0 3px 0 #2F4F4F;
+    -moz-box-shadow: 0 3px 0 #2F4F4F;
+    box-shadow: 0 3px 0 #2F4F4F;
+}
+ 
+/*Link Styles*/
+a.button {
+    text-decoration: none;
+}
+
+#practice {
+    /*Background gradients*/
+    background: -webkit-linear-gradient(top, #CCFFFF, #80FFFF);
+    background: -moz-linear-gradient(top, #CCFFFF, #80FFFF);
+    background: -o-linear-gradient(top, #CCFFFF, #80FFFF);
+    background: -ms-linear-gradient(top, #CCFFFF, #80FFFF);
+    background: linear-gradient(top, #CCFFFF, #80FFFF);
+}
+
+#practice:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #F5FFFF, #E0FFFF);
+    background: -moz-linear-gradient(top, #F5FFFF, #E0FFFF);
+    background: -o-linear-gradient(top, #F5FFFF, #E0FFFF);
+    background: -ms-linear-gradient(top, #F5FFFF, #E0FFFF);
+    background: linear-gradient(top, #F5FFFF, #E0FFFF);
+}
+
+#test {
+    /*Background gradients*/
+    background: -webkit-linear-gradient(top, #FFFFE0, #FFFFA3);
+    background: -moz-linear-gradient(top, #FFFFE0, #FFFFA3);
+    background: -o-linear-gradient(top, #FFFFE0, #FFFFA3);
+    background: -ms-linear-gradient(top, #FFFFE0, #FFFFA3);
+    background: linear-gradient(top, #FFFFE0, #FFFFA3);
+}
+
+#test:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #FFFFF5, #FFFFE0);
+    background: -moz-linear-gradient(top, #FFFFF5, #FFFFE0);
+    background: -o-linear-gradient(top, #FFFFF5, #FFFFE0);
+    background: -ms-linear-gradient(top, #FFFFF5, #FFFFE0);
+    background: linear-gradient(top, #FFFFF5, #FFFFE0);
+}

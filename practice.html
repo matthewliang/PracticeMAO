@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Practice MAO - Problem Generator</title>
+	<link rel="stylesheet" href="styleprac.css">
+</head>
+
+<body>
+	<div id="main">
+		<div class="float_center">
+			<ul class="child" id="banner">
+				<li><h1>PRACTICE</h1></li>
+				<li><img src="logo2.jpg" alt="Mu Alpha Theta logo" height="125px" width="115px"></li>
+				<li><h1>- Calculus Problems</h1></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<hr>
+		<h2>What is the derivative of sin(x)?</h2>
+		<form name="myform" onsubmit="return testResults(myform)"> <!-- creates a form, runs testResults(form) when submitted -->
+		<input type='text' name='ans' id="text" /> <!-- creates text boxt to receive input -->
+		</form>
+		<script type="text/javascript">
+		function testResults(form) {
+			var TestVar = form.text.value; <!-- finds what user entered -->
+			var answer = "cos(x)"; <!-- correct answer -->
+			if (TestVar.localeCompare(answer)==0) <!-- checks if the user's answer is correct -->
+			{
+				alert("Correct!"); <!-- displays an alert box if correct -->
+			}
+		}
+		</script>
+		<p id="status"></p>
+		
+	</div>
+</body>
+
+</html>

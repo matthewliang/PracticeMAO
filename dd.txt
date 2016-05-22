@@ -1,0 +1,9 @@
+1. flow chart
+2. modules
+3. details of first module
+4. how to do next modules
+5. test plan
+
+keep browser in screenshot
+prototype images for next modules
+test plan
